@@ -1,0 +1,28 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: royalblue;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.link-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.link-item {
+  list-style: none;
+}
+
+.link-item a {
+  text-decoration: none;
+  color: white;
+}
